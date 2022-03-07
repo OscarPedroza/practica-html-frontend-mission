@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Your Cake Factory</title>
+
+    <!-- Archivos css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Oleo+Script:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Header start -->
+    <header class="header">
+        <div class="header__items container">
+            <a href="index.html">
+                <img class="logo" src="img/logo-your-cake-factory.webp" alt="Logotipo de Custom Cake">
+            </a>
+    
+            <nav class="nav">
+                <ul class="nav__links">
+                    <li><a class="nav__item nav__item--selected" href="index.html">Inicio</a></li>
+                    <li><a class="nav__item" href="pedidos.html">Pedidos</a></li>
+                    <li><a class="nav__item" href="contacto.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Hero section start -->
+    <section class="hero-section">
+        <div class="hero">
+            <h1 class="hero__title">Los mejores pasteles para todos los gustos y ocaciones</h1>
+            <h4 class="hero__subtitle">¡Conoce nuestros sabores!</h3>
+            <a class="button" href="#sabores">Ver sabores</a>
+        </div>
+    </section>
+    <!-- End Hero section  -->
+
+    <!-- Info section start -->
+    <section class="section info-section">
+        <div class="container info">
+            <h2>Consigue tu pastel ideal</h2>
+            <h5>¡Al mejor precio!</h3>
+
+            <div class="info__coulums">
+                <div class="coulum">
+                    <lord-icon
+                        class="lord-icon"
+                        src="https://cdn.lordicon.com/lupuorrc.json"
+                        trigger="loop"
+                        colors="primary:#b02945,secondary:#4c3224"
+                        style="width:140px;height:120px">
+                    </lord-icon>
+
+                    <h3>Para todo tipo de eventos</h3>
+                </div>
+
+                <div class="coulum">
+                    <lord-icon
+                        class="lord-icon"
+                        src="https://cdn.lordicon.com/nkmsrxys.json"
+                        trigger="loop"
+                        colors="primary:#b02945,secondary:#4c3224"
+                        style="width:120px;height:120px">
+                    </lord-icon>
+
+                    <h3>Personaliza y obsequia</h3>
+                </div>
+
+                <div class="coulum">
+                    <lord-icon
+                        class="lord-icon"
+                        src="https://cdn.lordicon.com/rjzlnunf.json"
+                        trigger="loop"
+                        colors="primary:#b02945,secondary:#4c3224"
+                        style="width:120px;height:120px">
+                    </lord-icon>
+
+                    <h3>Disfruta al máximo</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End info section -->
+
+    <section class="separador separador--informacion"></section>
+
+    <!-- Sección de sabores start -->
+    <section class="section products-section" id="sabores">
+        <div class="container">
+            <h2>Contamos con gran variedad de sabores</h2>
+            <h5>¡Escoje tus favoritos!</h5>
+
+            <div class="products-container">
+                <div class="products">
+                    <div class="product__coulum">
+                        <img class="product__image" src="img/pastel-de-vanilla.webp" alt="">
+                        <h3 class="product__title">Vainilla</h3>
+                        <p class="product__price">Precio: Desde $130</p>
+                    </div>
+    
+                    <div class="product__coulum">
+                        <img class="product__image" src="img/pastel-de-chocolate.webp" alt="">
+                        <h3 class="product__title">Chocolate</h3>
+                        <p class="product__price">Precio: Desde $130</p>
+                    </div>
+    
+                    <div class="product__coulum">
+                        <img class="product__image" src="img/pastel-de-chocolate-y-fresa.webp" alt="">
+                        <h3 class="product__title">Chocolate y fresas</h3>
+                        <p class="product__price">Precio: Desde $130</p>
+                    </div>
+    
+                    <div class="product__coulum">
+                        <img class="product__image" src="img/pastel-de-cafe.webp" alt="">
+                        <h3 class="product__title">Cafe con chocolate</h3>
+                        <p class="product__price">Precio: Desde $130</p>
+                    </div>
+                </div>
+    
+                <div class="products">
+                    <div class="product__coulum">
+                        <img class="product__image" src="img/pastel-de-fresas.webp" alt="">
+                        <h3 class="product__title">Fresas</h3>
+                        <p class="product__price">Precio: Desde $130</p>
+                    </div>
+    
+                    <div class="product__coulum">
+                        <img class="product__image" src="img/pastel-de-moras.webp" alt="">
+                        <h3 class="product__title">Moras</h3>
+                        <p class="product__price">Precio: Desde $130</p>
+                    </div>
+    
+                    <div class="product__coulum">
+                        <img class="product__image" src="img/pastel-de-oreo.webp" alt="">
+                        <h3 class="product__title">Oreo</h3>
+                        <p class="product__price">Precio: Desde $130</p>
+                    </div>
+    
+                    <div class="product__coulum">
+                        <img class="product__image" src="img/pastel-de-vanilla.webp" alt="">
+                        <h3 class="product__title">Nuez</h3>
+                        <p class="product__price">Precio: Desde $130</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de sabores end -->
+
+    <section class="separador separador--productos"></section>
+
+    <!-- Sección de adornos start -->
+    <section class="section products-section">
+        <div class="container">
+            <h2>Adornos y accesorios</h2>
+            <h5>¡Decora a tu gusto!</h5>
+
+            <div class="products-container">
+                <div class="products">
+                    <div class="product__coulum">
+                        <img class="product__image" src="img/adornos-velas.webp" alt="">
+                        <h3 class="product__title">Velas de cumpleaños</h3>
+                        <p class="product__price">Precio: $25</p>
+                    </div>
+    
+                    <div class="product__coulum">
+                        <img class="product__image" src="img/adorno-velas-personalizado.webp" alt="">
+                        <h3 class="product__title">Velas de personalizadas</h3>
+                        <p class="product__price">Precio: $50</p>
+                    </div>
+    
+                    <div class="product__coulum">
+                        <img class="product__image" src="img/adorno-letrero-celebracion.webp" alt="">
+                        <h3 class="product__title">Letrero de celebración</h3>
+                        <p class="product__price">Precio: Desde $60</p>
+                    </div>
+    
+                    <div class="product__coulum">
+                        <img class="product__image" src="img/adorno-cuchillo-para-pastel.webp" alt="">
+                        <h3 class="product__title">Cuchillo para pastel</h3>
+                        <p class="product__price">Precio: $80</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de adornos end -->
+
+    <!-- Contactanos Sección start -->
+    <section class="section contactanos-section">
+        <div class="container contactanos">
+            <h3 class="contactanos__title">¡Pide tu pastel ideal ahora mismo!</h3>
+            <a href="#" class="button button--contact">Realizar un pedido</a>
+        </div>
+    </section>
+    <!-- Contactanos Sección end -->
+
+    <section class="separador-footer"></section>
+
+    <!-- Footer start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__coulums">
+                <div class="footer-coulum">
+                    <h3 class="footer__title">Contacto</h3>
+    
+                    <div class="footer__text">
+                        <p><i class="fa-solid fa-phone"></i>477 980 5690</p>
+                    </div>
+    
+                    <div class="footer__text">
+                        <p><i class="fa-brands fa-whatsapp"></i>477 180 3456</p>
+                    </div>
+    
+                    <div class="footer__text">
+                        <p><i class="fa-solid fa-envelope"></i>ventas@yourcakefactory.com</p>
+                    </div>
+                </div>
+    
+                <div class="footer-coulum">
+                    <h3 class="footer__title">Ubicación</h3>
+    
+                    <div class="footer__text">
+                        <p>Blvd. Adolfo López Mateos León, Guanajuato, México.</p>
+                    </div>
+
+                    <div class="footer__text">
+                        <p>Lunes a Sábado de 9:00 am - 7:00 pm</p>
+                    </div>
+                </div>
+                
+                <div class="footer-coulum">
+                    <h3 class="footer__title">Privacidad</h3>
+    
+                    <div class="footer__text">
+                        <p>Aviso de privacidad </p>
+                    </div>
+    
+                    <div class="footer__text">
+                        <p>Términos y condiciones </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p class="footer__credits">Your Cake Factory - Desarrollado por Oscar Javier Pedroza Hernández</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Scripts de lord icon -->
+    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+</body>
+
+</html>
