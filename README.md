@@ -2,8 +2,8 @@
 
 ### Link la página de la pasteleía para los clientes
 
-[Página: ]()
+Link: [https://oscarpedroza.github.io/practica-html-frontend-mission.github.io/pasteleria-clientes/: ]("https://oscarpedroza.github.io/practica-html-frontend-mission.github.io/pasteleria-clientes/")
 
 ### Link la página administrativa de la pasteleía para el pastelero
 
-[Página administrativa: ]()
+Link: [https://oscarpedroza.github.io/practica-html-frontend-mission.github.io/pasteleria-administrador/: ]("https://oscarpedroza.github.io/practica-html-frontend-mission.github.io/pasteleria-administrador/")
