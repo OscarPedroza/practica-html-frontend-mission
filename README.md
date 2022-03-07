@@ -1,2 +1,1 @@
-# practica-html-frontend-mission
-Practica de la pastelería para la Front-end Mission
+# Practica de la pastelería Mission Front end
